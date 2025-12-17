@@ -22,7 +22,7 @@ if __name__ == "__main__":
     print("Simple Tokenizer:", simple_tokenizer.tokenize(text3))
     print("Regex Tokenizer:", regex_tokenizer.tokenize(text3))
 
-    dataset_path = r"E:\nlp2025\UD_English-EWT\UD_English-EWT\en_ewt-ud-train.txt"
+    dataset_path = r"D:\UD_English-EWT\UD_English-EWT\en_ewt-ud-train.txt"
     raw_text = load_raw_text_data(dataset_path)
     # Take a small portion of the text for demonstration
     sample_text = raw_text[:500] # First 500 characters
